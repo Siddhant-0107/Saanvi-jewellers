@@ -65,7 +65,7 @@ export default function AboutPage() {
       <section className="relative pt-28 pb-16 sm:pt-36 sm:pb-24 lg:pt-44 lg:pb-32 bg-gradient-to-b from-purple-950 via-purple-900 to-[#12022a] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/hero-1.jpg"
+            src="/images/about-bg.png"
             alt="About Trimurti Saanvi Jewellers"
             fill
             className="object-cover opacity-12"
@@ -107,7 +107,7 @@ export default function AboutPage() {
                 <div className="space-y-4">
                   <div className="rounded-2xl overflow-hidden shadow-2xl shadow-black/20">
                     <Image
-                      src="/images/hero-1.jpg"
+                      src="/images/craftsmanship.png"
                       alt="Master craftsmanship"
                       width={300}
                       height={400}
@@ -116,7 +116,7 @@ export default function AboutPage() {
                   </div>
                   <div className="rounded-2xl overflow-hidden shadow-2xl shadow-black/20">
                     <Image
-                      src="/images/hero-2.jpg"
+                      src="/images/visit-showroom.png"
                       alt="Jewellery workshop"
                       width={300}
                       height={250}
@@ -127,7 +127,7 @@ export default function AboutPage() {
                 <div className="pt-8 space-y-4">
                   <div className="rounded-2xl overflow-hidden shadow-2xl shadow-black/20">
                     <Image
-                      src="/images/hero-2.jpg"
+                      src="/images/collection-necklace.png"
                       alt="Fine details"
                       width={300}
                       height={250}
@@ -136,7 +136,7 @@ export default function AboutPage() {
                   </div>
                   <div className="rounded-2xl overflow-hidden shadow-2xl shadow-black/20">
                     <Image
-                      src="/images/hero-1.jpg"
+                      src="/images/collection-earings.png"
                       alt="Heritage jewellery"
                       width={300}
                       height={400}

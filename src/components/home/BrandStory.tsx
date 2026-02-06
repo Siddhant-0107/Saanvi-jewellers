@@ -20,7 +20,7 @@ export default function BrandStory() {
           <div ref={imgRef} className="reveal-left relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-purple-900/10">
               <Image
-                src="/images/hero-2.jpg"
+                src="/images/craftsmanship.png"
                 alt="The art of jewellery making at Trimurti Saanvi"
                 width={640}
                 height={800}

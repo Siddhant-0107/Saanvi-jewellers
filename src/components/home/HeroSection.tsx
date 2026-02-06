@@ -9,7 +9,7 @@ export default function HeroSection() {
       {/* Background Image with enhanced overlays */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-1.jpg"
+          src="/images/hero-bg.png"
           alt="Luxury jewellery showcase"
           fill
           className="object-cover scale-105"

@@ -12,7 +12,7 @@ const collections = [
     title: "Bridal Heritage",
     subtitle: "Bridal Collection",
     description: "Timeless bridal sets crafted with intricate kundan and polki work for your most cherished day.",
-    image: "/images/hero-1.jpg",
+    image: "/images/collection-necklace.png",
     badge: "Bestseller",
   },
   {
@@ -20,7 +20,7 @@ const collections = [
     title: "Contemporary Gold",
     subtitle: "Gold Collection",
     description: "Modern gold designs that blend minimal aesthetics with traditional Indian craftsmanship.",
-    image: "/images/hero-2.jpg",
+    image: "/images/collection-bangles.png",
     badge: "New Arrival",
   },
   {
@@ -28,7 +28,7 @@ const collections = [
     title: "Diamond Radiance",
     subtitle: "Diamond Collection",
     description: "Certified diamonds set in 18K gold, designed to make every moment sparkle.",
-    image: "/images/hero-1.jpg",
+    image: "/images/collection-earings.png",
     badge: "Premium",
   },
 ];

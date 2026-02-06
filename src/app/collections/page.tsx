@@ -22,7 +22,7 @@ const products = [
     title: "Maharani Kundan Necklace",
     category: "Necklaces",
     price: "₹2,85,000",
-    image: "/images/hero-1.jpg",
+    image: "/images/collection-necklace.png",
     badge: "Bestseller",
   },
   {
@@ -30,7 +30,7 @@ const products = [
     title: "Chandika Diamond Studs",
     category: "Earrings",
     price: "₹1,45,000",
-    image: "/images/hero-2.jpg",
+    image: "/images/collection-earings.png",
     badge: "New",
   },
   {
@@ -38,7 +38,7 @@ const products = [
     title: "Rani Haar Gold Set",
     category: "Bridal Sets",
     price: "₹5,20,000",
-    image: "/images/hero-1.jpg",
+    image: "/images/collection-necklace.png",
     badge: "Exclusive",
   },
   {
@@ -46,7 +46,7 @@ const products = [
     title: "Lavanya Gold Bangles",
     category: "Bangles",
     price: "₹95,000",
-    image: "/images/hero-2.jpg",
+    image: "/images/collection-bangles.png",
     badge: null,
   },
   {
@@ -54,7 +54,7 @@ const products = [
     title: "Meera Solitaire Ring",
     category: "Rings",
     price: "₹1,75,000",
-    image: "/images/hero-1.jpg",
+    image: "/images/collection-earings.png",
     badge: "Premium",
   },
   {
@@ -62,7 +62,7 @@ const products = [
     title: "Ananya Temple Necklace",
     category: "Necklaces",
     price: "₹3,40,000",
-    image: "/images/hero-2.jpg",
+    image: "/images/collection-necklace.png",
     badge: null,
   },
   {
@@ -70,7 +70,7 @@ const products = [
     title: "Devika Polki Choker",
     category: "Necklaces",
     price: "₹4,10,000",
-    image: "/images/hero-1.jpg",
+    image: "/images/collection-necklace.png",
     badge: "Heritage",
   },
   {
@@ -78,7 +78,7 @@ const products = [
     title: "Kavya Jhumka Earrings",
     category: "Earrings",
     price: "₹68,000",
-    image: "/images/hero-2.jpg",
+    image: "/images/collection-earings.png",
     badge: null,
   },
   {
@@ -86,7 +86,7 @@ const products = [
     title: "Bridal Maang Tikka Set",
     category: "Bridal Sets",
     price: "₹1,20,000",
-    image: "/images/hero-1.jpg",
+    image: "/images/collection-bangles.png",
     badge: "Trending",
   },
 ];

@@ -45,7 +45,7 @@ export default function ContactPage() {
       <section className="relative pt-28 pb-16 sm:pt-36 sm:pb-24 lg:pt-44 lg:pb-32 bg-gradient-to-b from-purple-950 via-purple-900 to-[#12022a] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/hero-2.jpg"
+            src="/images/visit-showroom.png"
             alt="Contact Trimurti Saanvi Jewellers"
             fill
             className="object-cover opacity-12"
