@@ -14,7 +14,6 @@ export default function HeroSection() {
           fill
           className="object-cover scale-105"
           priority
-          quality={95}
         />
         {/* Multi-layered gradient for cinematic depth */}
         <div className="absolute inset-0 bg-gradient-to-r from-purple-950/95 via-purple-900/75 to-purple-950/55" />

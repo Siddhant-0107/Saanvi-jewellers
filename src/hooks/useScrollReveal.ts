@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState, RefObject } from "react";
+import { useEffect, useRef, useState } from "react";
+import React from "react";
 
 /**
  * Hook for scroll-triggered reveal animations.
@@ -9,8 +10,8 @@ import { useEffect, useRef, useState, RefObject } from "react";
 export function useScrollReveal<T extends HTMLElement = HTMLDivElement>(
   threshold = 0.15,
   rootMargin = "0px 0px -60px 0px"
-): [RefObject<T | null>, boolean] {
-  const ref = useRef<T | null>(null);
+): [React.RefObject<T>, boolean] {
+  const ref = useRef<T>(null) as React.RefObject<T>;
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -43,8 +44,8 @@ export function useScrollReveal<T extends HTMLElement = HTMLDivElement>(
 export function useStaggerReveal<T extends HTMLElement = HTMLDivElement>(
   staggerMs = 120,
   threshold = 0.1
-): RefObject<T | null> {
-  const containerRef = useRef<T | null>(null);
+): React.RefObject<T> {
+  const containerRef = useRef<T>(null) as React.RefObject<T>;
 
   useEffect(() => {
     const container = containerRef.current;
